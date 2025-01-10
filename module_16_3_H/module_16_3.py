@@ -7,7 +7,6 @@ app = FastAPI()
 
 users = {'1': 'Имя: Example, возраст: 18'}
 
-key_users = []
 
 @app.get('/users')
 async def get_users() -> dict:
